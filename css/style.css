@@ -116,7 +116,7 @@ iframe {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     body {
-        font-size: 20px;
+        font-size: 18px;
     }
     .content {
         width: 320px;
@@ -125,8 +125,8 @@ iframe {
         max-width: 320px;
     }
     .navbar a:link, .navbar a:visited {
-        padding: 6px 10px;
-        margin: 0 2px;
+        padding: 6px 9px;
+        margin: 0;
         font-size: 18px;
         font-weight: bold;
     }
