@@ -1,8 +1,8 @@
 body {
     background-color: #000;
     color: #fff;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -34,7 +34,7 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
 }
 
 .header {
-    margin: 48px 0 0 0;
+    margin: 24px 0 8px 0;
     text-align: center;
 }
 
@@ -57,9 +57,10 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
     font-weight: 700;
     font-size: 24px;
     color: #000;
+    font-weight: bold;
 }
 
-.navbar a:hover {
+.navbar a:hover, .navbar a.current:link, .navbar a.current:visited {
     background-color: #000;
     color: #fff;
     text-decoration: none;
@@ -95,6 +96,6 @@ a img {
     border-radius: 10px;
 }
 
-h1, h3 {
-    margin: 12px 0;
+p {
+    line-height: 150%;
 }
