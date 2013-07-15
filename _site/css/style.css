@@ -6,13 +6,6 @@ body {
     
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    body {
-        font-size: 26px;
-        font-weight: 700;
-    }
-}
-
 .container {
     border: 4px solid #fff;
     width: 475px;
@@ -96,7 +89,7 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
 }
 
 .content {
-    width: 432px;
+    width: 420px;
     margin: 0 auto;
 }
 
@@ -106,7 +99,7 @@ footer {
 }
 
 a img {
-    margin: 4px;
+    margin: 6px;
     border: 4px solid white;
     border-radius: 4px;
 }
@@ -118,4 +111,27 @@ p {
 iframe {
     border: 4px solid white;
     border-radius: 4px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+        font-size: 18px;
+    }
+    .content {
+        width: 320px;
+    }
+    iframe {
+        max-width: 300px;
+        max-height: 225px;
+    }
+    .header {
+        margin: 16px 0 0px 0;
+    }
+    .navbar a:link, .navbar a:visited {
+        padding: 7px 8px;
+        margin: 0;
+        font-size: 16px;
+        font-weight: bold;
+    }
 }
