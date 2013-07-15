@@ -89,7 +89,7 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
 }
 
 .content {
-    width: 432px;
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -123,6 +123,7 @@ iframe {
     }
     iframe {
         max-width: 320px;
+        max-height: 240px;
     }
     .header {
         margin: 16px 0 0px 0;
