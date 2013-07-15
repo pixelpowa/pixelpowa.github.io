@@ -6,12 +6,6 @@ body {
     
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    body {
-        font-size: 20px;
-    }
-}
-
 .container {
     border: 4px solid #fff;
     width: 475px;
@@ -117,4 +111,14 @@ p {
 iframe {
     border: 4px solid white;
     border-radius: 4px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+        font-size: 20px;
+    }
+    .content {
+        width: 320px;
+    }
 }
