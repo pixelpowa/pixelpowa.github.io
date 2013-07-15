@@ -124,6 +124,9 @@ iframe {
     iframe {
         max-width: 320px;
     }
+    .header {
+        margin: 16px 0 0px 0;
+    }
     .navbar a:link, .navbar a:visited {
         padding: 7px 8px;
         margin: 0;
