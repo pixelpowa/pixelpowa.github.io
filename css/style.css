@@ -121,4 +121,7 @@ iframe {
     .content {
         width: 320px;
     }
+    iframe {
+        max-width: 320px;
+    }
 }
