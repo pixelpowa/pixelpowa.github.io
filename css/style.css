@@ -69,7 +69,8 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
     background-color: #fff;
     color: #000;
     text-decoration: none;
-    border-radius: 25px 10px / 10px 25px;
+    border-radius: 10px;
+    /*border-radius: 25px 10px / 10px 25px;*/
     border: 0px solid black;
 }
 
