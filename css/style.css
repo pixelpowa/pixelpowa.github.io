@@ -110,7 +110,8 @@ iframe {
         font-size: 16px;
     }
     .content {
-        width: 320px;
+        width: 300px;
+        margin: 0 auto;
     }
     iframe {
         max-width: 300px;
