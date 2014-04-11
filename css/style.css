@@ -102,15 +102,15 @@ p {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     body {
-        font-size: 16px;
+        font-size: 13px;
     }
     .content {
-        width: 300px;
+        width: 245px;
         margin: 0 auto;
     }
     iframe {
-        max-width: 300px;
-        max-height: 225px;
+        max-width: 240px;
+        max-height: 180px;
     }
     .header {
         margin: 16px 0 0px 0;
@@ -118,7 +118,7 @@ p {
     .navbar a:link, .navbar a:visited {
         padding: 7px 8px;
         margin: 0;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: bold;
     }
 }
