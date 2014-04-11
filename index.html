@@ -5,6 +5,13 @@ published: true
 
 <section>
     <p><b>Kid Tripp</b> is now available on the App Store! Check out the <a href='/games/'>Games page</a> for more info!</p>
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/gkbgXArW_Aw?controls=0&rel=0&showinfo=0&autohide=0" frameborder="0"></iframe>
+  <img id='ytvideo' src='/img/yt-static-2.png'>
     <center><a href='https://itunes.apple.com/us/app/kid-tripp/id660068947?mt=8&uo=4"'><img src='/img/Download_on_the_App_Store_Badge_US-UK_135x40.svg' width="40%"></a></center>
 </section>
+
+<script type='text/javascript'>
+$('#ytvideo').click(function(){
+    var video = '<iframe width="420" height="315" src="http://www.youtube.com/embed/gkbgXArW_Aw?controls=0&rel=0&showinfo=0&autohide=0&autoplay=1" frameborder="0"></iframe>';
+    $(this).replaceWith(video);
+});
+</script>
