@@ -124,6 +124,17 @@ p {
         max-width: 240px;
         max-height: 180px;
     }
+    #ytvideo {
+  		width: 240px;
+  		height: 180px;
+  		background: url(/img/yt-static.png) 0 0 no-repeat;
+  		background-size: 240px 360px;
+	}
+
+	#ytvideo:hover {
+  		background-position: 0px -180px;
+  		cursor: pointer;
+	}
     .header {
         margin: 16px 0 0px 0;
     }
