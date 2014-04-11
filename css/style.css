@@ -103,13 +103,12 @@ p {
 #ytvideo {
   width: 420px;
   height: 315px;
-  background-image: url(/img/yt-static-1.png);
-  background-image: url(/img/yt-static-2.png);
+  background-image: url(/img/yt-static.png);
   background-size: 420px 315px;
 }
 
 #ytvideo:hover {
-  background-image: url(/img/yt-static-1.png);
+  background-position: 0px -360px;
   cursor: pointer;
 }
 
