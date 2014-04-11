@@ -104,6 +104,7 @@ p {
   width: 420px;
   height: 315px;
   background-image: url(/img/yt-static-2.png);
+  background-size: 420px 315px;
 }
 
 #ytvideo:hover {
