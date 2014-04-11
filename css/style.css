@@ -110,6 +110,7 @@ p {
 
 #ytvideo:hover {
   background-image: url(/img/yt-static-1.png);
+  cursor: pointer;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
