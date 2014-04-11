@@ -100,6 +100,16 @@ p {
     line-height: 150%;
 }
 
+#ytvideo {
+  width: 420px;
+  height: 315px;
+  background-image: url(/img/yt-static-2.png);
+}
+
+#yt:hover {
+  background-image: url(/img/yt-static-1.png);
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     body {
         font-size: 13px;
