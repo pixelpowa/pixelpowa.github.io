@@ -1,7 +1,8 @@
 body {
     background-color: #000;
     color: #fff;
-    font-family: 'Muli', sans-serif;
+    <!-- font-family: 'Muli', sans-serif; -->
+    font-family: Arial, sans-serif;
     font-size: 17px;
     
 }
