@@ -51,14 +51,14 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
     margin: 0 4px;
     font-weight: 700;
     font-size: 20px;
-    color: #ffc62d;
+    color: #fff;
     background-color: #000;
     font-weight: bold;
     border: 0px solid white;
 }
 
 .navbar a:hover, .navbar a.current:link, .navbar a.current:visited {
-    background-color: #ffc62d;
+    background-color: #fff;
     color: #000;
     text-decoration: none;
     border-radius: 10px;
